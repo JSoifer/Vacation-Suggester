@@ -1,0 +1,15 @@
+#Ecuador {
+  display: none;
+}
+#Caribbean {
+  display: none;
+}
+#Ireland {
+  display: none;
+}
+button {
+  margin-top: 30px;
+  border-width: medium;
+  background-color: blue;
+  color: white;
+}
