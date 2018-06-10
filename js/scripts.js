@@ -1,6 +1,4 @@
-var score = function(season, purpose) {
-  return season + purpose;
-};
+
 
 
 
@@ -12,6 +10,10 @@ $(document).ready(function() {
     var purpose = parseInt($("select#purpose").val());
     var independance = $("select#independance").val();
     var activity = $("select#activity").val();
+
+  $(".name").append(name);
+  $(".message").show();
+
 
   if (season === 4 && purpose === 1) {
     $("#caribbean").show();
