@@ -21,7 +21,7 @@ $(document).ready(function() {
     $("#ecuador").show();
   } else if (season === 100 && purpose === 2) {
     $("#ireland").show();
-  } else if (score === 100 && purpose === 1) {
+  } else if (season === 100 && purpose === 1) {
     $("#ecuador").show();
   } else {
     $("#ireland").show();
